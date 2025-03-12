@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px; 
+    overflow-x: hidden;
+}
+
+.menu {
+    font-size: larger;
+}
+
+li {
+    display: inline;
+    padding: 3px;
+    margin: 7px;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000;
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 0;
+}
+
+.contato {
+    margin: 7px;
+}
+
+.bannerjordan {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.logo {
+    text-align: left;
+    margin-right: auto; 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.user, .insta, .carrinho {
+    display: inline;
+    vertical-align: middle; 
+    width: 45px;
+}
+
+.busca {
+    text-align: center;
+    border-radius: 40px;
+    height: 30px;
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #e1e1e1;
+    display: inline-block;
+    position: relative; 
+    box-sizing: border-box;
+}
+
+.logobusca {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 10px; 
+    margin-bottom: 30px; 
+}
+
+h3 {
+    margin-top: 75px;
+    transform: translateX(60px);
+}
+
+.tenis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+}
+
+.produto {
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.dunk, .airforce, .maxtriple, .jordan, .nikejujutsu, .jordan3 {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #fff;
+    background-color: #fff;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: box-shadow 0.3s;
+}
+
+.dunk:active, .airforce:active, .maxtriple:active, .jordan:active, .nikejujutsu:active, .jordan3:active {
+    box-shadow: 2.8px 2.8px 2.2px rgb(151, 151, 151);
+}
+
+.descricao, .preco{
+    margin: 0;
+    padding: 5px 0; 
+}
+
+@media (max-width: 768px) {
+    .busca {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .tenis {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produto {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        margin-left: 5px;
+    }
+
+    .menu {
+        font-size: smaller;
+        text-align: center;
+    }
+
+    ul.menu li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .busca {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .user, .insta, .carrinho {
+        width: 35px;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footermidia {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footermidia h2 {
+    margin-bottom: 10px;
+}
+
+.footermidia ul {
+    padding: 0;
+}
+
+.footermidia li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.footermidia a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footermidia a:hover {
+    text-decoration: underline;
+}
+
+.footersocial {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.footersocial a {
+    margin: 0 10px;
+}
+
+.footersocial img {
+    width: 30px;
+    height: 30px;
+}
+
+.footercopy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footercopy p {
+    margin: 0;
+}
+

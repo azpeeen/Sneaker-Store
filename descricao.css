@@ -1,0 +1,207 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    margin-right: auto;
+}
+
+header .busca {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+header .redes {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+header .redes li {
+    margin: 0 5px;
+}
+
+header .redes img {
+    width: 45px;
+    height: auto;
+}
+
+
+.menu {
+    font-size: medium;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+
+.main {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.descricao-produto {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.descricao-produto img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.descricao-produto h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.descricao-produto p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.descricao-produto .preco {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.descricao-produto .comprar {
+    display: block;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.descricao-produto .comprar:hover {
+    background-color: #333;
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footermidia {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footermidia h2 {
+    margin-bottom: 10px;
+}
+
+.footermidia ul {
+    padding: 0;
+}
+
+.footermidia li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.footermidia a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footermidia a:hover {
+    text-decoration: underline;
+}
+
+.footersocial {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.footersocial a {
+    margin: 0 10px;
+}
+
+.footersocial img {
+    width: 30px;
+    height: 30px;
+}
+
+.footercopy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footercopy p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+}

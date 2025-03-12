@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger; 
+    overflow-x: hidden;
+}
+
+.menu {
+    font-size: larger;
+}
+
+.conteudo {
+    padding-bottom: 120px;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+
+
+li {
+    display: inline;
+    padding: 3px;
+    margin: 7px;
+    color: #000;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000;
+    background-color: #fff;
+    text-decoration: underline;
+}
+
+ul.menu {
+    list-style-type: none;
+    text-align: right;
+    padding: 0;
+}
+
+.contato {
+    margin: 7px;
+}
+
+.bannerjordan {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.logo {
+    text-align: left;
+    margin-right: auto; 
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.user, .insta, .carrinho {
+    display: inline;
+    vertical-align: middle; 
+    width: 45px;
+}
+
+.busca {
+    text-align: center;
+    border-radius: 40px;
+    height: 30px;
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid #e1e1e1;
+    display: inline-block;
+    position: relative; 
+    box-sizing: border-box;
+}
+
+.logobusca {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 10px; 
+    margin-bottom: 30px; 
+}
+
+.integrantes {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.imagem-texto {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.texto {
+    background-color: #e1e1e1;
+    border-radius: 15px;
+    padding: 20px;
+    margin-right: 20px;
+    max-width: 300px;
+}
+
+.vini {
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 75px;
+}
+
+.leo {
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 75px;
+}
+
+.matheus {
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 75px;
+}
+
+.davi{
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 75px;
+}
+
+.pokemon {
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 75px;
+}
+
+.raul {
+    border-radius: 50px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 75px;
+    margin-bottom: 10px;
+}
+
+.imagem-texto2 {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     margin-top: 20px;
+}
+
+.texto2 {
+    background-color: #e1e1e1;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+
+.conteudo {
+    padding-bottom: 120px; 
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin-top: auto;
+    clear: both;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footermidia {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footermidia h2 {
+    margin-bottom: 10px;
+}
+
+.footermidia ul {
+    padding: 0;
+}
+
+.footermidia li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.footermidia a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footermidia a:hover {
+    text-decoration: underline;
+}
+
+.footersocial {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.footersocial a {
+    margin: 0 10px;
+}
+
+.footersocial img {
+    width: 30px;
+    height: 30px;
+}
+
+.footercopy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footercopy p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        text-align: center;
+        display: block;
+    }
+
+    .menu li {
+        display: block;
+        margin: 10px 0;
+    }
+}
